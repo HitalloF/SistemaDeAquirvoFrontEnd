@@ -1,0 +1,40 @@
+.controleinterno h1{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.controle {
+display: flex;
+
+align-content: center;
+justify-content: center;
+background-color: thistle;
+}
+.controle h1{
+    text-align: center;
+}
+.list{
+    width: 70vw;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-flex;
+    list-style: none;
+}
+
+.controledown {
+    display: flex;
+    background: teal;
+    align-content: center;
+    justify-content: center;
+
+}
+.ultimas {
+    background: tomato;
+    width: 30vw;
+    height: 70vh;
+}
+.notficacoes {
+    background-color: aquamarine;
+    width: 30vw;
+}

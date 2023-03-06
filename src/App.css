@@ -1,0 +1,58 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+}
+.Sidebar {
+    height: 100%;
+    max-width: 250px;
+    background: #546069;
+}
+.SidebarList{ 
+    height: auto;
+    padding: 0;
+    height: 100%;
+}
+.SidebarList .row{ 
+    width: 250px;
+    height: 60px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+
+.SidebarList .row:hover{ 
+    cursor: pointer;
+    background-color: #0D1116;
+}   
+.SidebarList #active{
+    background-color: #0D1116;
+}
+
+.row #icon{
+    flex:35%;
+    display: grid;
+    place-items: center;
+}
+.row #title{
+    flex: 80%;
+}
+
+
+
+/*LOGO */
+.marca{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #546069;
+} 

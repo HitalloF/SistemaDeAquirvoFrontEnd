@@ -1,0 +1,21 @@
+.cadastro{
+     background-color: aqua;
+}
+.cadastro {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin: 0 auto;
+}
